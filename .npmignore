@@ -3,3 +3,5 @@ npm-debug.log
 spec
 .travis.yml
 gulpfile.js
+directives/include.js
+directives/bind.js

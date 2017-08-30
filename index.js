@@ -50,13 +50,14 @@ var angularTemplate = function (fileOrHtml, data, options, nested) {
      * curly-braces exprepression
      */
     output = $.html()
+      .replace(/classname/g,"className") 
       .replace(/&lt;%/g, "<%")                       // <%
       .replace(/%&gt;/g, "%>")                        // %>
       .replace(/; i &lt;/g, "; i <")                  // ; i <
       .replace(/&quot;/g, '"')                       // "
       .replace(/&apos;/g, "'")                       // '
       .replace(/ &amp;&amp; /g, " && ")              // &&
-      .replace(/{{(.*?)}}/g, "<%=$1%>"); // {{ .. }}
+      .replace(/{{(.*?)}}/g, "{$1}"); // {{ .. }}
 
     if (options.cache) {
       angularTemplate.cache.put(options.cache, output);

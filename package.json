@@ -1,30 +1,48 @@
 {
-  "name": "angular-template",
-  "version": "2.1.4",
-  "description": "Angular-Like HTML Template",
-  "main": "index.js",
-  "scripts": {
-    "test": "jasmine"
+  "_from": "angular-template@^2.1.4",
+  "_id": "angular-template@2.1.4",
+  "_inBundle": false,
+  "_integrity": "sha1-ffocxND09Bd7VGKHpIrYOIvqJuU=",
+  "_location": "/angular-template",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "angular-template@^2.1.4",
+    "name": "angular-template",
+    "escapedName": "angular-template",
+    "rawSpec": "^2.1.4",
+    "saveSpec": null,
+    "fetchSpec": "^2.1.4"
   },
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:allenhwkim/angular-template.git"
-  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/angular-template/-/angular-template-2.1.4.tgz",
+  "_shasum": "7dfa1cc4d0f4f4177b546287a48ad8388bea26e5",
+  "_spec": "angular-template@^2.1.4",
+  "_where": "/Users/skyne/Sources/react-babel-webpack-boilerplate",
   "author": {
     "name": "Allen Kim",
     "email": "allenhwkim@gmail.com"
   },
+  "bugs": {
+    "url": "https://github.com/allenhwkim/angular-template/issues"
+  },
+  "bundleDependencies": false,
   "contributors": [
     {
       "name": "Domas Trijonis",
       "email": "domas.trijonis@gmail.com"
     }
   ],
-  "license": "MIT",
   "dependencies": {
     "cheerio": "^1.0.0-rc.2",
     "js-template": "~0.1.4"
   },
+  "deprecated": false,
+  "description": "Angular-Like HTML Template",
   "devDependencies": {
     "gulp": "~3.9.1",
     "gulp-bump": "~2.7.0",
@@ -32,5 +50,17 @@
     "gulp-tap": "~1.0.1",
     "gulp-util": "~3.0.8",
     "jasmine": "^2.7.0"
-  }
+  },
+  "homepage": "https://github.com/allenhwkim/angular-template#readme",
+  "license": "MIT",
+  "main": "index.js",
+  "name": "angular-template",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/allenhwkim/angular-template.git"
+  },
+  "scripts": {
+    "test": "jasmine"
+  },
+  "version": "2.1.4"
 }
