@@ -1,48 +1,15 @@
 {
-  "_from": "angular-template@^2.1.4",
-  "_id": "angular-template@2.1.4",
-  "_inBundle": false,
-  "_integrity": "sha1-ffocxND09Bd7VGKHpIrYOIvqJuU=",
-  "_location": "/angular-template",
-  "_phantomChildren": {},
-  "_requested": {
-    "type": "range",
-    "registry": true,
-    "raw": "angular-template@^2.1.4",
-    "name": "angular-template",
-    "escapedName": "angular-template",
-    "rawSpec": "^2.1.4",
-    "saveSpec": null,
-    "fetchSpec": "^2.1.4"
+  "name": "react-template",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
   },
-  "_requiredBy": [
-    "#USER",
-    "/"
-  ],
-  "_resolved": "https://registry.npmjs.org/angular-template/-/angular-template-2.1.4.tgz",
-  "_shasum": "7dfa1cc4d0f4f4177b546287a48ad8388bea26e5",
-  "_spec": "angular-template@^2.1.4",
-  "_where": "/Users/skyne/Sources/react-babel-webpack-boilerplate",
-  "author": {
-    "name": "Allen Kim",
-    "email": "allenhwkim@gmail.com"
-  },
-  "bugs": {
-    "url": "https://github.com/allenhwkim/angular-template/issues"
-  },
-  "bundleDependencies": false,
-  "contributors": [
-    {
-      "name": "Domas Trijonis",
-      "email": "domas.trijonis@gmail.com"
-    }
-  ],
   "dependencies": {
     "cheerio": "^1.0.0-rc.2",
     "js-template": "~0.1.4"
   },
-  "deprecated": false,
-  "description": "Angular-Like HTML Template",
   "devDependencies": {
     "gulp": "~3.9.1",
     "gulp-bump": "~2.7.0",
@@ -51,16 +18,21 @@
     "gulp-util": "~3.0.8",
     "jasmine": "^2.7.0"
   },
-  "homepage": "https://github.com/allenhwkim/angular-template#readme",
-  "license": "MIT",
-  "main": "index.js",
-  "name": "angular-template",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/allenhwkim/angular-template.git"
+    "url": "git+https://skyne@github.com/skyne/react-template.git"
   },
-  "scripts": {
-    "test": "jasmine"
+  "keywords": [
+    "react",
+    "template"
+  ],
+  "author": "Skyne",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/skyne/react-template/issues"
   },
-  "version": "2.1.4"
+  "homepage": "https://github.com/skyne/react-template#readme"
 }
